@@ -1,0 +1,178 @@
+{
+  "projects": [
+    {
+      "id": "2",
+      "title": "E-Commerce Dashboard",
+      "description": "A comprehensive admin dashboard for e-commerce platforms with real-time analytics, inventory management, and interactive charts.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "PostgreSQL"
+      ],
+      "github": "#",
+      "demo": "#",
+      "createdAt": "2026-10-16T15:55:48.103Z"
+    },
+    {
+      "id": "3",
+      "title": "Smart Banking App",
+      "description": "A secure financial application for tracking expenses, transferring funds, and generating financial reports using Python data analysis.",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=800&auto=format&fit=crop",
+      "tags": [
+        "React",
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "github": "#",
+      "demo": "#",
+      "createdAt": "2026-10-16T15:55:48.103Z"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "role": "Full Stack Developer",
+      "organization": "Freelance",
+      "type": "Freelance",
+      "period": "2025 - Present",
+      "location": "Remote",
+      "description": "Built responsive web applications, admin dashboards, and AI-integrated product features for clients.",
+      "highlights": [
+        "React",
+        "Node.js",
+        "Tailwind",
+        "AI Integration"
+      ],
+      "link": "#",
+      "createdAt": "2026-10-16T15:55:48.103Z"
+    },
+    {
+      "id": "exp-2",
+      "role": "MERN Stack Developer",
+      "organization": "Portfolio Projects",
+      "type": "Project Work",
+      "period": "2024 - 2025",
+      "location": "Remote",
+      "description": "Designed and shipped full-stack applications with database-backed APIs, clean UI systems, and deployment-ready architecture.",
+      "highlights": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Deployment"
+      ],
+      "link": "#",
+      "createdAt": "2026-10-16T15:55:48.103Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "React",
+      "icon": "Code",
+      "color": "text-cyan-400",
+      "orbit": 0
+    },
+    {
+      "id": "skill-2",
+      "name": "Tailwind",
+      "icon": "Zap",
+      "color": "text-cyan-300",
+      "orbit": 0
+    },
+    {
+      "id": "skill-3",
+      "name": "Next.js",
+      "icon": "Layers",
+      "color": "text-white",
+      "orbit": 0
+    },
+    {
+      "id": "skill-4",
+      "name": "Node.js",
+      "icon": "Database",
+      "color": "text-green-500",
+      "orbit": 1
+    },
+    {
+      "id": "skill-5",
+      "name": "Express",
+      "icon": "Globe",
+      "color": "text-zinc-300",
+      "orbit": 1
+    },
+    {
+      "id": "skill-6",
+      "name": "MongoDB",
+      "icon": "Database",
+      "color": "text-green-600",
+      "orbit": 1
+    },
+    {
+      "id": "skill-7",
+      "name": "PostgreSQL",
+      "icon": "Database",
+      "color": "text-blue-400",
+      "orbit": 1
+    },
+    {
+      "id": "skill-8",
+      "name": "Python",
+      "icon": "Code",
+      "color": "text-yellow-400",
+      "orbit": 2
+    },
+    {
+      "id": "skill-9",
+      "name": "OpenAI",
+      "icon": "Brain",
+      "color": "text-emerald-400",
+      "orbit": 2
+    },
+    {
+      "id": "skill-10",
+      "name": "LangChain",
+      "icon": "Globe",
+      "color": "text-blue-500",
+      "orbit": 2
+    },
+    {
+      "id": "skill-11",
+      "name": "Docker",
+      "icon": "Layers",
+      "color": "text-blue-600",
+      "orbit": 2
+    },
+    {
+      "id": "skill-12",
+      "name": "Vercel",
+      "icon": "Zap",
+      "color": "text-white",
+      "orbit": 2
+    },
+    {
+      "id": "1792167066182",
+      "name": "Javascript",
+      "icon": "Code",
+      "color": "text-cyan-400",
+      "orbit": 0,
+      "createdAt": "2026-10-16T16:11:06.182Z"
+    }
+  ],
+  "homeContent": {
+    "badge": "MERN Stack & Python Developer",
+    "heading": "Building Digital",
+    "accentHeading": "Masterpieces.",
+    "description": "I craft robust, scalable web applications and AI-integrated solutions with clean code and minimalist design.",
+    "primaryButtonText": "View My Work",
+    "secondaryButtonText": "Let's Talk",
+    "githubUrl": "https://github.com",
+    "linkedinUrl": "https://linkedin.com",
+    "email": "contact@example.com",
+    "resumeUrl": "/resume.pdf"
+  },
+  "resumeFile": null,
+  "updatedAt": "2026-10-16T16:11:06.182Z"
+}
