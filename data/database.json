@@ -31,42 +31,7 @@
       "createdAt": "2026-10-16T15:55:48.103Z"
     }
   ],
-  "experiences": [
-    {
-      "id": "exp-1",
-      "role": "Full Stack Developer",
-      "organization": "Freelance",
-      "type": "Freelance",
-      "period": "2025 - Present",
-      "location": "Remote",
-      "description": "Built responsive web applications, admin dashboards, and AI-integrated product features for clients.",
-      "highlights": [
-        "React",
-        "Node.js",
-        "Tailwind",
-        "AI Integration"
-      ],
-      "link": "#",
-      "createdAt": "2026-10-16T15:55:48.103Z"
-    },
-    {
-      "id": "exp-2",
-      "role": "MERN Stack Developer",
-      "organization": "Portfolio Projects",
-      "type": "Project Work",
-      "period": "2024 - 2025",
-      "location": "Remote",
-      "description": "Designed and shipped full-stack applications with database-backed APIs, clean UI systems, and deployment-ready architecture.",
-      "highlights": [
-        "MongoDB",
-        "Express",
-        "React",
-        "Deployment"
-      ],
-      "link": "#",
-      "createdAt": "2026-10-16T15:55:48.103Z"
-    }
-  ],
+  "experiences": [],
   "skills": [
     {
       "id": "skill-1",
@@ -174,5 +139,5 @@
     "resumeUrl": "/resume.pdf"
   },
   "resumeFile": null,
-  "updatedAt": "2026-10-16T16:11:06.182Z"
+  "updatedAt": "2026-10-16T18:15:56.621Z"
 }

@@ -1,8 +1,6 @@
-import express from 'express';
+﻿import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import path from 'path';
-import { fileURLToPath } from 'url';
 
 import portfolioRoutes from './routes/portfolioRoutes.js';
 import projectRoutes from './routes/projectRoutes.js';
@@ -11,12 +9,9 @@ import skillRoutes from './routes/skillRoutes.js';
 import homeRoutes from './routes/homeRoutes.js';
 import resumeRoutes from './routes/resumeRoutes.js';
 import authRoutes from './routes/authRoutes.js';
-import { readDatabase } from './config/db.js';
+import { DB_FILE, UPLOADS_DIR, readDatabase } from './config/db.js';
 
 dotenv.config();
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -34,7 +29,7 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
 // Static uploads serving
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/uploads', express.static(UPLOADS_DIR));
 
 // API Routes
 app.use('/api/portfolio', portfolioRoutes);
@@ -65,8 +60,8 @@ app.use((err, req, res, next) => {
 
 const server = app.listen(PORT, () => {
   console.log(`🚀 Portfolio Backend running on http://localhost:${PORT}`);
-  console.log(`📁 Uploads directory: ${path.join(__dirname, 'uploads')}`);
-  console.log(`📊 Database file: ${path.join(__dirname, 'data', 'database.json')}`);
+  console.log(`Uploads directory: ${UPLOADS_DIR}`);
+  console.log(`Database file: ${DB_FILE}`);
 });
 
 server.on('error', (err) => {
@@ -78,3 +73,4 @@ server.on('error', (err) => {
   console.error('Failed to start server:', err);
   process.exit(1);
 });
+

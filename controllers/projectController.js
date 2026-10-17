@@ -1,4 +1,5 @@
 import { readDatabase, writeDatabase } from '../config/db.js';
+import { addMissingSkills } from '../utils/syncSkills.js';
 
 export const getProjects = (req, res) => {
   try {
@@ -29,9 +30,10 @@ export const addProject = (req, res) => {
     };
 
     const updatedProjects = [newProject, ...(db.projects || [])];
-    writeDatabase({ ...db, projects: updatedProjects });
+    const { skills, additions } = addMissingSkills(db.skills || [], newProject.tags);
+    writeDatabase({ ...db, projects: updatedProjects, skills });
 
-    res.status(201).json({ success: true, data: newProject, message: 'Project added successfully' });
+    res.status(201).json({ success: true, data: newProject, addedSkills: additions, message: 'Project added successfully' });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
   }
